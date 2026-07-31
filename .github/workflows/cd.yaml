@@ -22,7 +22,7 @@ on:
 
 jobs:
   plan_and_apply:
-    uses: ALZTestQI/alztest731-mgmt731-templates/.github/workflows/cd-template.yaml@main
+    uses: alztestqi/alztest731-mgmt731-templates/.github/workflows/cd-template.yaml@main
     name: 'CD'
     permissions:
       id-token: write
